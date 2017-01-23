@@ -2,7 +2,7 @@
   "name": "fadich/royallib",
   "autoload": {
     "psr-0" : {
-      "Fadich\\RoyalLib" : "src"
+      "Fadich\\RoyalLib" : "./"
     }
   }
 }
