@@ -1,8 +1,4 @@
 {
   "name": "fadich/royallib",
-  "autoload": {
-    "psr-0" : {
-      "royallib" : "fadich/royallib"
-    }
-  }
+  "description": "Royal fadich's lib"
 }
