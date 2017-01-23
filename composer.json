@@ -1,8 +1,6 @@
 {
   "name": "fadich/royallib",
-  "autoload": {
-    "psr-0" : {
-      "Fadich\\RoyalLib" : "type"
-    }
-  }
+  "keywords": [
+    "royal"
+  ]
 }
