@@ -3,7 +3,7 @@
     {
       "type": "package",
       "package": {
-        "name": "fadich/fadich",
+        "name": "fadich/royallib",
         "version": "dev-master",
         "source": {
           "url": "git://github.com/fadich/royallib.git",
