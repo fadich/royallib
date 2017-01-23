@@ -1,7 +1,7 @@
 <?php
 
 
-namespace royallib;
+namespace fadich\royallib;
 
 /**
  * Class Object
