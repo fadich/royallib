@@ -1,11 +1,11 @@
 {
   "name": "fadich/royallib",
-  "description": "Royal fadich's lib",
+  "description": "Royal fadich's lib. . .",
   "version": "0.0.1",
   "autoload": {
         "psr-0" : {
-            "royallib\\type" : "type/",
-            "royallib\\base" : "base/"
+            "royallib\\type" : "type",
+            "royallib\\base" : "base"
         }
 	}
 }
