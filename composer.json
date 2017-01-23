@@ -1,6 +1,16 @@
 {
-  "name": "fadich/royallib",
-  "keywords": [
-    "royal"
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "fadich/royallib",
+        "version": "master",
+        "source": {
+          "url": "git://github.com/fadich/royallib.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
   ]
 }
