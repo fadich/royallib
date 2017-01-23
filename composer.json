@@ -1,0 +1,19 @@
+{
+  "repositories": {
+    "type": "package",
+    "package": {
+      "name": "fadich/royallib",
+      "version": "dev-master",
+      "source": {
+        "url": "git://github.com/fadich/royallib.git",
+        "type": "git",
+        "reference": "master"
+      },
+      "autoload": {
+        "psr-0": {
+          "Fadich\\Royallib": "src"
+        }
+      }
+    }
+  }
+}
