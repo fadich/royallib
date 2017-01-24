@@ -3,8 +3,8 @@
   "description": "Royal fadich's lib. . .",
   "version": "0.0.1",
   "autoload": {
-        "psr-0" : {
-            "royallib" : "core"
-        }
-	}
+    "psr-0" : {
+        "royallib" : "core"
+    }
+  }
 }
