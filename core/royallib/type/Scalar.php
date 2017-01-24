@@ -29,7 +29,6 @@ class Scalar extends BaseType
             throw new \TypeError("Value should be scalar, " . gettype($value) . " given");
         }
         $this->_value = $value;
-//        parent::__construct();
     }
 
     /**
@@ -92,25 +91,6 @@ class Scalar extends BaseType
     {
         $this->_value = number_format($this->parseFloat()->value, 2, '.', ' ');
         return $this;
-    }
-
-    /**
-     * Converting amount of seconds to something like that: "XX h. XX m. XX s." (though in stupid russian language)
-     *
-     * @return static
-     * @throws \Exception
-     */
-    public function convertTime() {
-        if(is_int($this->_value) && $this->_value > 0) {
-            $this->_value = $this->value > 60 ?
-                $this->value > 3600 ?
-                    floor($this->value/3600) . ' ч. ' . floor($this->value%3600/60) . ' мин. '
-                : floor($this->value/60) . ' мин. ' . $this->value%60 . ' сек.'
-            : $this->value . ' сек.';
-            return $this;
-        } else {
-            throw new \Exception("Value should be a positive number of integer type");
-        }
     }
 
     /**
