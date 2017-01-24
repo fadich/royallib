@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "autoload": {
         "psr-0" : {
-            "royallib\\type" : "type",
-            "royallib\\base" : "base"
+            "royallib" : "core",
+            "core\\royallib" : "core"
         }
 	}
 }
