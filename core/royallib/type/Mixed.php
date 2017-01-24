@@ -181,4 +181,9 @@ class Mixed extends BaseType
     {
         return $this->_value;
     }
+
+    public function __toString()
+    {
+        return (string)$this->_value;
+    }
 }
