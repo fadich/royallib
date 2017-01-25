@@ -2,7 +2,6 @@
 
 namespace royallib\base\console;
 
-
 use royallib\base\Interact;
 use royallib\type\Matrix;
 
@@ -26,7 +25,7 @@ use royallib\type\Matrix;
  * @method Command mysql($params = null, $_ = null)          ...
  * @method Command mysqldump($params = null, $_ = null)      ...
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 class Command extends Interact
 {

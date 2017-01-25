@@ -11,6 +11,8 @@ use royallib\db\mysql\exception\MySqlConnectionError;
  * @package royallib\db\mysql
  *
  * @property \mysqli $connector
+ *
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 class MySql extends BaseConnection
 {

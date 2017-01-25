@@ -2,9 +2,14 @@
 
 namespace royallib\base\console;
 
-
 use royallib\type\Matrix;
 
+/**
+ * Class Console
+ * @package royallib\base\console
+ *
+ * @author Fadi Ahmad <fadich95@gmail.com>
+ */
 class Console extends BaseConsole
 {
     protected $_params = [];

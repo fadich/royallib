@@ -14,7 +14,7 @@ use royallib\base\Object;
  * Base abstract class, that can provide some static methods.
  * Basically, i think, there will be much of static methods, that build some parts of query (string).
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 abstract class BaseQueryHelper extends Object
 {

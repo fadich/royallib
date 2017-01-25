@@ -7,7 +7,7 @@ namespace royallib\db\mysql\query;
  * Class QueryHelper
  * @package royallib\db\mysql\query
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 class QueryHelper extends BaseQueryHelper
 {

@@ -13,6 +13,8 @@ use royallib\base\Interact;
  * @property mixed  $log
  * @see \royallib\debug\Debug::setLog()
  * @property string $microdate
+ *
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 class Debug extends Interact
 {

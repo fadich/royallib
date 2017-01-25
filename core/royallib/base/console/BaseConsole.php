@@ -2,7 +2,6 @@
 
 namespace royallib\base\console;
 
-
 use royallib\base\Interact;
 use royallib\type\Matrix;
 
@@ -13,7 +12,7 @@ use royallib\type\Matrix;
  *
  * @package royallib\base\console
  * *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 abstract class BaseConsole extends Interact
 {

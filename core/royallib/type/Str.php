@@ -10,7 +10,7 @@ namespace royallib\type;
  *
  * @property string $value
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 class Str extends Scalar
 {    

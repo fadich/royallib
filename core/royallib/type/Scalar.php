@@ -10,7 +10,7 @@ namespace royallib\type;
  *
  * @property mixed $value
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 class Scalar extends BaseType
 {

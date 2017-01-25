@@ -8,6 +8,8 @@ namespace royallib\base;
  * @package royallib\base
  *
  * Tha base class for working with an objects.
+ *
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 abstract class Object
 {

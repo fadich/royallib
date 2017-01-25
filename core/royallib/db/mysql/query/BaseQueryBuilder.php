@@ -13,6 +13,8 @@ use royallib\type\Matrix;
  * @package royallib\db\mysql\query
  *
  * @property \mysqli $connection
+ *
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 abstract class BaseQueryBuilder extends Interact
 {

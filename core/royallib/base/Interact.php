@@ -10,6 +10,8 @@ namespace royallib\base;
  *          TODO: describe \royallib\base\Interact
  *
  * @property array $errors
+ *
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 abstract class Interact extends Object
 {

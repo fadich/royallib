@@ -7,7 +7,7 @@ namespace royallib\type;
  * Class Matrix
  * @package royallib\type
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 class Matrix extends Mixed
 {

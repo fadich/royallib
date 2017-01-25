@@ -12,7 +12,7 @@ use royallib\base\Object;
  *          
  * Helper classes for working with variables types.
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 abstract class BaseType extends Object
 {

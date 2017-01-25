@@ -15,7 +15,7 @@ use royallib\base\Interact;
  * @property string $database
  * @property string $password
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 abstract class BaseConnection extends Interact
 {

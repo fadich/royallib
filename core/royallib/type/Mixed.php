@@ -13,7 +13,7 @@ use royallib\base\exceptions\IncorrectParamsException;
  * @property mixed $value       The value (of array).
  * @see Mixed::getValue()
  *
- * @author Fadi Ahmad
+ * @author Fadi Ahmad <fadich95@gmail.com>
  */
 class Mixed extends BaseType
 {
