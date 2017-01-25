@@ -274,7 +274,7 @@ class Debug extends Interact
     {
         return __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." .
             DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR .
-            'log';
+            "royallog" . DIRECTORY_SEPARATOR . "debug";
     }
 
     /**
