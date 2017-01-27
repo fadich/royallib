@@ -172,6 +172,7 @@ class Mixed extends BaseType
         foreach($this->value as $val) {
             $_array[] = is_array($val) ? (new static($val))->multiImplode($glue) : $val;
         }
+        // TODO: FIX THIS METHOD
         try {
             $this->_value = implode($glue, $_array ?? []);
         } catch (\Exception $e) {
