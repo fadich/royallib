@@ -54,18 +54,23 @@ class Matrix extends Mixed
     public function multiImplode($glue = "")
     {
         $this->_temp = $this->value;
-        $parent = parent::multiImplode($glue);
+        $parent = parent::multiImplode($glue)->value;
         $this->_value = $this->_temp;
-        return $parent->_value;
+        return $parent;
     }
 
     /**
      * Value setter.
      *
      * @param array $array
+     *
+     * @throws \TypeError
      */
-    public function setValue(array $array)
+    public function setValue($array)
     {
+        if (!is_array($array)) {
+            throw new \TypeError("Value should be an array " . gettype($array) . " given");
+        }
         $this->_value = $array;
     }
 }

@@ -191,6 +191,16 @@ class Mixed extends BaseType
         return $this->_value;
     }
 
+    /**
+     * Value setter.
+     *
+     * @param mixed $array
+     */
+    public function setValue($array)
+    {
+        $this->_value = $array;
+    }
+
     public function __toString()
     {
         return (string)$this->_value;
