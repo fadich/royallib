@@ -2,6 +2,7 @@
 
 namespace royallib\type;
 
+use royallib\base\exceptions\Exception;
 use royallib\base\exceptions\IncorrectParamsException;
 
 /**
@@ -161,13 +162,21 @@ class Mixed extends BaseType
      * @param string $glue      A symbol or a string, that will be placed between the imploded elements;
      *
      * @return static
+     * @throws Exception
      */
     public function multiImplode($glue = "")
     {
+        if (!is_array($this->value) && !is_object($this->value)) {
+            throw new Exception("Trying to implode a variable of " . gettype($this->value) . " type");
+        }
         foreach($this->value as $val) {
             $_array[] = is_array($val) ? (new static($val))->multiImplode($glue) : $val;
         }
-        $this->_value = implode($glue, $_array ?? []);
+        try {
+            $this->_value = implode($glue, $_array ?? []);
+        } catch (\Exception $e) {
+            throw new Exception("Elements cannot be converted to string. Error with message " . $e->getMessage());
+        }
         return $this;
     }
 
