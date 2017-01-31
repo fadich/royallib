@@ -5,7 +5,6 @@
     "lib"
   ],
   "type": "library",
-  "license": " - ",
   "description": "Contains a help classes for working with a basic facilities (instruments) of the language. \nAuthor Fadi Ahmad",
   "support": {
     "email": "royalfadich@gmail.com"
