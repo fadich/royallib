@@ -1,7 +1,7 @@
 {
   "name": "fadich/royallib",
   "description": "Contains a help classes for working with a basic facilities (instruments) of the language. \nAuthor Fadi Ahmad",
-  "version": "0.0.1",
+  "version": "0.1.0a",
   "autoload": {
     "psr-0" : {
         "royallib" : "core"
